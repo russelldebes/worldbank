@@ -1,0 +1,21 @@
+all countries: http://api.worldbank.org/v2/country?format=json
+    3 letter ISO 3166-1 alpha-3 code
+    2 letter ISO 3166-1 alpha-2 code
+    Name
+    Region: ID, name and World Bank 2 letter code
+    Income Level: ID, name and World Bank 2 letter code
+    Lending Type: ID, name and World Bank 2 letter code
+    Capital City
+    Longitude
+    Latitude
+
+
+Indicators represent data like total population, gross national income, energy use, and many more
+list of all indicators: https://api.worldbank.org/v2/indicator
+combine indicator code (e.g., GDP NY.GDP.MKTP.CD) with the country to get this information
+
+How to get GDP for all countries?
+
+How to get climate data for all countries??
+
+
